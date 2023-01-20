@@ -3,7 +3,7 @@ import { ChakraProvider } from "@chakra-ui/react"
 import { theme } from "../styles/theme";
 import { SidebarDrawerProvider } from "../components/contexts/SidebarDrawerContext";
 import { makeServer } from "../services/mirage";
-import { QueryClientProvider, QueryClient } from "react-query";
+import { QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from 'react-query/devtools'
 import { queryClient } from "../services/queryClient";
 
